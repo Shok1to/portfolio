@@ -61,18 +61,19 @@ body{
  
  .aboutme {
      display: flex;
-     flex-direction: column;
-     
- }
+     flex-direction: column;   
+   }
  
   .one{
-   font-size: 3.5rem;
-  }
+    font-size: 3.5rem;
+    margin-left: 6rem;
+   }
+
   .two{
-   font-size: 1.5rem;
-   margin-top: 1em;
-   margin-right: 3rem;
-  }
+    font-size: 1.5rem;
+    margin-top: 1em;
+    margin-right: 3rem;
+   }
  
  .card {
      padding: 10px;
@@ -80,19 +81,13 @@ body{
      display: flex;  
    }
  
- /* .aboutme img{
-     border-radius: 50%;
-     max-width: 200px;   
- } */
 
  .flex-container img{
-   border-radius: 50%;
-   max-width: 200px; 
-   margin-left: 600px; 
-   margin-top: -100px;
-   flex-wrap: wrap;
-   
- }
+    border-radius: 50%;
+    max-width: 200px; 
+    margin-left: 800px; 
+    margin-top: -100px; 
+   }
  
  .container0 {  
      
@@ -206,6 +201,7 @@ body{
    .card img {
      width: 100%;
    }
+   
  .footerHeading{
   font-size:30px;
    margin-left: 30%;
@@ -237,20 +233,27 @@ body{
    margin-top: 240px;
  }
  
+ @media screen and (max-width: 1200px) {
+   footer{
+      margin-top:70%;
+   }
+   .flex-container img {
+      margin-left: 50px;
+      margin-top: 1px;
+   }
+}
+ 
+ 
  @media screen and (max-width: 992px) {
   
   .flex-container img {
-   flex-direction: column;
-  }
+    flex-direction: column;
+   }
 
 
  }
 
-@media screen and (max-width: 1200px) {
-   footer{
-      margin-top:70%;
-   }
-}
+
 @media screen and (max-width: 586px) {
    footer{
       margin-top:110%;
