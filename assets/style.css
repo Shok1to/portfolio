@@ -143,7 +143,7 @@ body{
    color:white ;
 }
 
-.work4, .work5{
+.work4, .work5, .work6, .work7, .work8, .work9, .work10, .work11{
    background: #0a192f;
    margin: 20px;
    flex-grow: 0;
@@ -192,11 +192,32 @@ body{
    transform: scale(1.1);
 }
 
-.work5:hover{
+  .work5:hover{
    transform: scale(1.1);
-}
+  }
 
+  .work6:hover{
+   transform: scale(1.1);
+  }
+
+  .work7:hover{
+   transform: scale(1.1);
+  }
+
+  .work8:hover{
+   transform: scale(1.1);
+  }
+
+  .work9:hover{
+   transform: scale(1.1);
+  }
+  .work10:hover{
+   transform: scale(1.1);
+  }
  
+  .work11:hover{
+   transform: scale(1.1);
+  }
    
    .card img {
      width: 100%;
