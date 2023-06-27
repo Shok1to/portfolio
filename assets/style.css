@@ -143,7 +143,7 @@ body{
    color:white ;
 }
 
-.work4, .work5, .work6, .work7, .work8, .work9, .work10, .work11{
+.work4, .work5{
    background: #0a192f;
    margin: 20px;
    flex-grow: 0;
@@ -151,6 +151,32 @@ body{
    flex-basis: 450px;
    color:white ;
 }
+.work6, .work7{
+   background: #0a192f;
+   margin: 20px;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: 450px;
+   color:white ;
+}
+
+.work8, .work9{
+   background: #0a192f;
+   margin: 20px;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: 450px;
+   color:white ;
+}
+.work10, .work11{
+   background: #0a192f;
+   margin: 20px;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: 450px;
+   color:white ;
+}
+
 
 .container1 img{
    display:flex;
